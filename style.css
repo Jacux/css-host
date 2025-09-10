@@ -46,6 +46,11 @@ html {
   max-width: none !important;
 }
 
+ul b {
+    color: #ffffff;
+    font-weight: 400;
+}
+
 #header {
   background-image: url("");
   background: none;
