@@ -10,10 +10,7 @@
 	}
 
 	#mainpage {
-		margin: 0 auto;
-				max-width: 1920px;
-		
-				
+		margin: 0 auto;			
 	}
 
 	#header {
@@ -29,6 +26,7 @@
 	}
 	#header > .cc_limit_width {
 		position: relative;
+		width: 100vw;
 	}
 	@media only screen and (min-width: 769px) {
 		#header > .cc_limit_width {
