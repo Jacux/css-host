@@ -322,4 +322,5 @@ input[type=checkbox] {
 #cc .lp_trip_box div[class^="price"], #cc .lp_double_box div[class^="price"] {
 	background-color: #041a3060 !important;
 	border-top-right-radius: 5px !important;
+	bottom: 0px !important;
 }
