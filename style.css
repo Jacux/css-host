@@ -58,8 +58,8 @@ ul b {
 
 #footer {
     width: 100vw;
-    max-width: none;
-    position: absolute;
+    max-width: none !important;
+    position: absolute ;
 }
 
 #header {
