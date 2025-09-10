@@ -15,6 +15,8 @@
 
 	.cc_limit_width{
 		width: 100vw !important;
+		min-width: 100vw !important;
+		max-width: none;
 	}
 
 	#header {
