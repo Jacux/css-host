@@ -13,6 +13,10 @@
 		margin: 0 auto;			
 	}
 
+	.cc_limit_width{
+		width: 100vw !important;
+	}
+
 	#header {
 		background-image: url("");
 		background: none;
