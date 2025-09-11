@@ -34,12 +34,12 @@ html {
   border-radius: 15px;
 }
 
-.cc-widget--search .slides .lp_slider_box  {
-	border-radius: 0 !important;
+.cc-widget--search .slides .lp_slider_box {
+  border-radius: 0 !important;
 }
 
 .pagemaker-widget.cc-widget--product-table {
-    padding: 15px;
+  padding: 15px;
 }
 
 .cc_limit_width {
@@ -47,16 +47,13 @@ html {
 }
 
 ul b {
-    color: #ffffff;
-    font-weight: 400;
+  color: #ffffff;
+  font-weight: 400;
 }
 
 .b_forward {
-    border-radius: 5px;
+  border-radius: 5px;
 }
-
-
-
 
 #header {
   background-image: url("");
@@ -138,7 +135,7 @@ ul b {
   background-color: #97d5f0;
   z-index: 1000;
   display: flex;
-  gap: 16px
+  gap: 16px;
 }
 
 /* Navigation */
@@ -364,17 +361,18 @@ input[type="checkbox"] {
 }
 
 .footer-content {
-    background-color: #E3F6FF;
-    border-radius: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px
+  background-color: #e3f6ff;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-.footer-top, .footer-bottom  {
+.footer-top,
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -403,16 +401,15 @@ input[type="checkbox"] {
   .footer-top {
     display: flex;
     flex-direction: column;
-    gap: 32px
+    gap: 32px;
   }
 }
-
 
 @media (max-width: 650px) {
   .footer-top {
     display: flex;
     flex-direction: column;
-    gap: 32px
+    gap: 32px;
   }
 
   .footer-socials {
@@ -436,17 +433,26 @@ input[type="checkbox"] {
 
 @media (max-width: 400px) {
   .footer-logo {
-  height: 32px;
-}
+    height: 32px;
+  }
   .footer-socials {
     grid-template-columns: 1fr;
   }
-
-
 }
 
 .textbox {
-  font-family: 'Poppins', sans-serif !important;
+  padding: 15px;
+  font-family: "Poppins", sans-serif !important;
   color: #243943;
   margin-block: 32px;
+}
+#cc
+  > div.cc_limit_width.pagemaker-widget.cc-widget--content
+  > div
+  > p
+  > span
+  > span
+  > span {
+  font-family: "Poppins", sans-serif !important;
+  color: #243943 !important;
 }
