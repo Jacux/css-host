@@ -355,6 +355,10 @@ input[type="checkbox"] {
   max-width: none !important;
 }
 
+#footer * {
+  font-weight: 500;
+}
+
 .footer-logo {
   height: 50px;
 }
