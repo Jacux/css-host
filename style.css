@@ -352,6 +352,7 @@ input[type="checkbox"] {
 
 #footer {
   padding-inline: 15px;
+  max-width: none !important;
 }
 
 .footer-logo {
