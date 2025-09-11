@@ -441,7 +441,7 @@ input[type="checkbox"] {
 }
 
 .textbox {
-  padding: 15px;
+  padding: 15px !important;
   font-family: "Poppins", sans-serif !important;
   color: #243943;
   margin-block: 32px;
