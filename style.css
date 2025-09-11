@@ -133,12 +133,12 @@ ul b {
   width: 100%;
 }
 #menu {
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
+  width: 100%;
   padding: 0 12px;
   background-color: #97d5f0;
   z-index: 1000;
+  display: flex;
+  gap: 16px
 }
 
 /* Navigation */
@@ -443,4 +443,10 @@ input[type="checkbox"] {
   }
 
 
+}
+
+.textbox {
+  font-family: 'Poppins', sans-serif !important;
+  color: #243943;
+  margin-block: 32px;
 }
