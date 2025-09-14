@@ -105,7 +105,7 @@ ul b {
   right: 5%;
   top: 10px;
   font-weight: 500;
-    font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   color: #243943 !important;
 }
 #header_openinghours {
@@ -257,7 +257,6 @@ input[type="checkbox"] {
   }
 
   #menu {
-
     flex-direction: column;
     padding-block: 20px !important;
   }
@@ -279,7 +278,7 @@ input[type="checkbox"] {
     bottom: 0px;
   }
   #show-menu:checked ~ #menu {
-       display: flex !important;
+    display: flex !important;
   }
 
   #menu {
@@ -472,9 +471,7 @@ input[type="checkbox"] {
   color: #243943 !important;
 }
 
-
 #header li a {
-
   display: block;
   text-transform: none;
   text-decoration: none;
@@ -486,15 +483,11 @@ input[type="checkbox"] {
   background-color: #fff;
   padding: 10px 25px;
   border-radius: 10px;
-
 }
 
 #header li a b {
-    color: #243943 !important;
+  color: #243943 !important;
 }
-
-
-
 
 #header li:hover a {
   background-color: #243943 !important;
@@ -508,8 +501,6 @@ input[type="checkbox"] {
   color: #fff !important;
 }
 
-
-
 /*Hover state for dropdown links*/
 #header li:hover ul a:hover {
   background: #ffffff;
@@ -522,9 +513,25 @@ input[type="checkbox"] {
 }
 
 #header ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 #header_openinghours {
   display: none;
+}
+#cc .slider_search #cc_lay_an {
+  background-color: #fbfbfbaa !important;
+  backdrop-filter: blur(10px);
+}
+
+#search .lay_01 > h2 {
+  color: #ffffff !important;
+}
+
+#cc .searchbutton {
+  border: none !important;
+  background-color: #ffffff9c !important;
+}
+#cc .searchbutton:hover {
+  background: #e3f6ff !important;
 }
