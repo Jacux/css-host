@@ -64,7 +64,6 @@ ul b {
 
   color: #1c516b;
 
-  font-family: "robotolight", sans-serif;
 }
 #header > .cc_limit_width {
   position: relative;
@@ -132,10 +131,11 @@ ul b {
 #menu {
   width: 100%;
   padding: 0 12px;
-  background-color: #97d5f0;
+  background-color: #e3f6ff;
   z-index: 1000;
   display: flex;
   gap: 16px;
+  padding: 16px;
 }
 
 /* Navigation */
@@ -160,14 +160,28 @@ li a {
   text-decoration: none;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
-  color: #1c516b;
-  padding: 5px 8px;
   font-size: 14px;
+  text-decoration: none;
+  color: #243943 !important;
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
 }
 
+li a b {
+    color: #243943 !important;
+}
+
+
+
+
 li:hover a {
-  background: #84c8e5;
-  color: #1c516b;
+  background-color: #243943;
+  color: #fff !important;
+}
+
+li:hover b {
+  color: #fff !important;
 }
 
 /*Style for dropdown links*/
@@ -180,12 +194,13 @@ li:hover ul a {
 
 /*Hover state for dropdown links*/
 li:hover ul a:hover {
-  background: #84c8e5;
+  background: #ffffff;
   color: #1c516b;
 }
 
 /*Hide dropdown links until they are needed*/
 li ul {
+  margin-top: 10px;
   display: none;
   z-index: 100;
 }
@@ -195,18 +210,25 @@ li span {
 }
 
 /*Make dropdown links vertical*/
+
+
 li ul li {
-  display: block;
   float: none;
+  display: block;
 }
+
+
 
 /*Prevent text wrapping*/
 li ul li a {
-  display: block;
   width: auto;
   min-width: 100px;
-  padding: 0 20px;
+  background-color: #243943 !important;
+  color: #fff !important;
+  padding: 10px 25px;
 }
+
+
 
 /*Display the dropdown on hover*/
 ul li a:hover + .hidden,
