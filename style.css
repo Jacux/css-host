@@ -248,6 +248,18 @@ input[type="checkbox"] {
     height: auto;
     background-image: none;
   }
+
+  #header ul li {
+    display: block;
+    margin-top: 5px;
+  }
+
+  #menu {
+    display: flex !important;
+    flex-direction: column;
+    padding-block: 20px !important;
+  }
+
   #header_nav {
     position: static;
     height: 40px;
@@ -505,4 +517,8 @@ input[type="checkbox"] {
 /*Hide dropdown links until they are needed*/
 #header li ul {
   padding-top: 10px;
+}
+
+#header ul li {
+    display: inline-block;
 }
