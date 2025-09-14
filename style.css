@@ -494,13 +494,7 @@ input[type="checkbox"] {
   color: #fff !important;
 }
 
-/*Style for dropdown links*/
-#header li:hover ul a {
-  text-align: left;
-  background: #97d5f0;
-  color: #1c516b;
-  padding: 5px 8px;
-}
+
 
 /*Hover state for dropdown links*/
 #header li:hover ul a:hover {
@@ -511,6 +505,4 @@ input[type="checkbox"] {
 /*Hide dropdown links until they are needed*/
 #header li ul {
   padding-top: 10px;
-  display: none;
-  z-index: 100;
 }
