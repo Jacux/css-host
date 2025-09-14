@@ -103,8 +103,10 @@ ul b {
 #header_telephone {
   top: 20px;
   right: 5%;
-
   top: 10px;
+  font-weight: 500;
+    font-family: "Poppins", sans-serif !important;
+  color: #243943 !important;
 }
 #header_openinghours {
   left: 850px;
