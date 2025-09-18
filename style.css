@@ -642,4 +642,21 @@ ul#menu {
     padding-inline: 15px;
 }
 
-.cta {}
+@media only screen and (max-width: 480px) {
+#cc .lp_trip_box {
+  background-size: auto !important;
+}
+}
+
+
+.contact-link {
+  color: #243943;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.contact-link svg {
+  vertical-align: middle;
+    fill: #243943;
+}
