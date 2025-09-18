@@ -264,6 +264,8 @@ input[type="checkbox"] {
   #header_nav {
     position: static;
     height: 40px;
+    background: #e3f6ff;
+    padding-block: 2px;
   }
   #header_nav.double {
     height: 80px;
@@ -352,6 +354,16 @@ input[type="checkbox"] {
   }
 }
 @media only screen and (max-width: 500px) {
+  #cc
+  > div.cc_limit_width.pagemaker-widget.cc-widget--content
+  > div
+  > p
+  > span
+  > span
+  > span {
+font-size: 20px;
+}
+
 }
 
 #cc .lp_trip_box div[class^="price"],
@@ -397,6 +409,13 @@ input[type="checkbox"] {
   gap: 24px;
 }
 
+.header-socials {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
 .social {
   text-decoration: none;
   color: #243943;
@@ -404,6 +423,24 @@ input[type="checkbox"] {
   padding: 10px 25px;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
+}
+
+.social2 {
+  text-decoration: none;
+  fill: #243943;
+  background-color: #fff;
+  width: 41px;
+  height: 41px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social2:hover {
+  background-color: #243943;
+  fill: #fff;
 }
 
 .social:hover {
@@ -525,7 +562,7 @@ input[type="checkbox"] {
 }
 
 #search .lay_01 > h2 {
-  color: #ffffff !important;
+  color: #243943 !important;
 }
 
 #cc .searchbutton {
@@ -533,5 +570,26 @@ input[type="checkbox"] {
   background-color: #ffffff9c !important;
 }
 #cc .searchbutton:hover {
-  background: #e3f6ff !important;
+  background: #243943 !important;
+}
+
+#header a {
+  text-decoration: none;
+  color: #243943 !important;
+}
+
+.lp_ss_box03_inlay {
+  background: #e3f6ff;
+  border-radius: 10px;
+}
+
+.cc-widget--search {
+position: relative;
+    z-index: 20;
+}
+
+  
+.cc-widget--search {
+position: relative;
+    z-index: 1;
 }
