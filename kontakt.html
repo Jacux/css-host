@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="cc_limit_width pagemaker-widget cc-widget--contact"
+      style="padding-top: 5px; background-color: #fff"
+    >
+      <script src="https://www.google.com/recaptcha/api.js?hl=pl&amp;render=6LeUZvYiAAAAABYc5OKu2efuDFiCd59s3r4JNFH1"></script>
+      <script>
+        function RenewCaptcha() {
+          grecaptcha.ready(function () {
+            grecaptcha
+              .execute("6LeUZvYiAAAAABYc5OKu2efuDFiCd59s3r4JNFH1", {
+                action: "submit",
+              })
+              .then(function (token) {
+                console.log("Set Captcha Token: " + token);
+                document.getElementById("g-recaptcha-response").value = token;
+              });
+          });
+        }
+      </script>
+      <div class="page_box">
+        <h1>Zostaw kontakt, a odezwiemy się do Ciebie!</h1>
+        <p></p>
+        <table
+          align="center"
+          border="0"
+          cellpadding="15"
+          cellspacing="15"
+          dir="ltr"
+          style="width: 95%"
+        >
+          <tbody>
+            <tr>
+              <td>
+                <p data-pm-slice="1 1 []">
+                  <span style="font-size: 14px"
+                    ><span
+                      style="
+                        font-family: Lucida Sans Unicode, Lucida Grande,
+                          sans-serif;
+                      "
+                      >Masz do nas pytanie albo nie znalazłeś konkretnej oferty
+                      na naszej stronie?</span
+                    ></span
+                  >
+                </p>
+                <p>
+                  <span style="font-size: 14px"
+                    ><span
+                      style="
+                        font-family: Lucida Sans Unicode, Lucida Grande,
+                          sans-serif;
+                      "
+                      >Tutaj możesz się z nami skontaktować. Skorzystaj z
+                      formularza kontaktowego lub zadzwoń do nas na jeden z
+                      podanych w stopce numerów.</span
+                    ></span
+                  >
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+        <p></p>
+        <div class="page_content_1">
+          <form method="post">
+            <div class="pb_box">
+              <div class="pb_text"><label for="name">Imię *:</label></div>
+              <div class="pb_field">
+                <input name="name" id="name" required="required" />
+              </div>
+            </div>
+            <div class="pb_box">
+              <div class="pb_text">
+                <label for="email">E-mail kontaktowy *:</label>
+              </div>
+              <div class="pb_field">
+                <input name="email" id="email" required="required" />
+              </div>
+            </div>
+            <div class="pb_box">
+              <div class="pb_text"><label for="phone">Telefon :</label></div>
+              <div class="pb_field"><input name="phone" id="phone" /></div>
+            </div>
+            <div class="pb_box">
+              <div class="pb_text">
+                <label for="timeday"
+                  >Jak szybko potrzebujesz odpowiedzi? :</label
+                >
+              </div>
+              <div class="pb_field">
+                <div class="pb_field_02">
+                  <select name="time">
+                    <option value="">Godzina</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                  </select>
+                </div>
+                <div class="pb_field_03">
+                  <select name="day">
+                    <option value="">Dzień</option>
+                    <option value="Poniedziałek">Poniedziałek</option>
+                    <option value="Wtorek">Wtorek</option>
+                    <option value="Środa">Środa</option>
+                    <option value="Czwartek">Czwartek</option>
+                    <option value="Piątek">Piątek</option>
+                    <option value="Sobota">Sobota</option>
+                    <option value="Niedziela">Niedziela</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="pb_box">
+              <div class="pb_text">
+                <label for="message">Tu opisz swoje zapytanie *:</label>
+              </div>
+              <div class="pb_field">
+                <textarea
+                  name="message"
+                  id="message"
+                  required="required"
+                ></textarea>
+              </div>
+            </div>
+            <div class="pb_box">
+              <div class="pb_text"><label for="message">&nbsp;</label></div>
+              <div class="pb_field">
+                <input
+                  type="submit"
+                  value="Wyślij"
+                  id="submitContactForm"
+                  name="submitContactForm"
+                  onmouseenter="RenewCaptcha()"
+                />
+                <input
+                  type="hidden"
+                  id="g-recaptcha-response"
+                  name="g-recaptcha-response"
+                  value="0cAFcWeA6uGNbORQo4mWcV3y0IfPwmt7vtkUihjWk22C5_rAIrTmvO9VA_rDjm7TPH4eDiEx6WSu1EVyB34GUjKcdLuBfTbHdpLmCFDQQHkgYlni-CN2gVuntcTwKmp0zEDPurJZ3iUwaxXftAuUjrEpiDYufgRk1LMok_OW38JIU8oAy_anTkJCSb_C1XC-SoslNVurqctTKxxtWjzB8C1YFrQMScn40zP18C2OohgEQXlyWV-6-fmJoKNdWte-5zH46qi4Pezz8dbWK4PGCkfJQBu-mSqdDB5LTJPbsZljtD9zLxDjkluwQwglqbASFlW6hUaAX7dzFftsifO_LXzRJZCm3q16DfY6FJc_UZ-CErHweMjnKUB9Tm3jbh1njlQ8gy-ZecXCtwxN-bFkvs8oCtY5JcPcTiQk9aJlWieqNB67CW2IUzpqSw0UFSjA5lvmUlY_j01tb9nygAzX_0OoKQo53zi-5xyvV0qhKpTYTlb0UIZjQNE_hszhK_u3O_7We6wPctWijq1D6lSOST085l3P1QBeB7ts7oXs1SuQP0J1fVTP0rkzdZpwfgd-rzQXl-F8S09NbRwZKiDKpLVbGvw8jVfYcz_jzR2usl43ZY3BWq3R3_lLqTZ3-FVVx1j-UNZUs3vig5I762T7VkRb10_tKJBwKi-JYoQEC8GkY9kERLWMkf_RlBQG6Djmv8zPi86njPLIWJcDWWkOxiozNwomVAD6dY8tXSqMNdpXtiaorXyHj2poughUzCpe2zUdDdPnrmVL89WnnxNKU2zbT6SBEU23BM-k_xrz1TGt_X4mEaXSuxMvOTOcZDPKF8Tt1pvmSSSUV1pMyZqh2LVi417ssvj1NOzQ"
+                />
+                <input type="hidden" name="formType" value="contact" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

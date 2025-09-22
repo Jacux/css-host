@@ -660,3 +660,94 @@ ul#menu {
   vertical-align: middle;
     fill: #243943;
 }
+
+.liste_box:hover {
+    background: none !important
+}
+
+div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 > form {
+  background-color: #e3f6ff !important;
+  padding: 50px 100px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pb_text {
+  text-align: center;
+}
+
+.pb_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 8px;
+}
+
+.pb_field, .pb_field > input, .pb_field > textarea, .pb_field > select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.pb_field > input,  select {
+  outline: none;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pb_field > textarea {
+    outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pb_field  select {
+  width: 100%;
+}
+
+.pb_field_03 {
+  margin-top: 15px;
+}
+
+.pb_field > input[type="submit"] {
+  background-color: #243943;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media only screen and (max-width: 400px) {
+div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 > form {
+  width: 100%;
+  padding: 0;
+}
+}
+
+ * {
+  box-sizing: border-box;
+ }
+
+ @media only screen and (max-width: 600px) {
+div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 > form {
+  width: 100%;
+  padding: 10px 30px;
+}
+}
+
+ * {
+  box-sizing: border-box;
+ }
