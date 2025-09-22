@@ -650,15 +650,15 @@ ul#menu {
 
 
 .contact-link {
-  color: #243943;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  color: #243943 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
 }
 .contact-link svg {
-  vertical-align: middle;
-    fill: #243943;
+  vertical-align: middle !important;
+    fill: #243943 !important;
 }
 
 .liste_box:hover {
@@ -666,88 +666,85 @@ ul#menu {
 }
 
 div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  padding: 10px;
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  padding: 10px !important;
 }
 div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 > form {
   background-color: #e3f6ff !important;
-  padding: 50px 100px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  padding: 50px 100px !important;
+  border-radius: 15px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
 }
 
 .pb_text {
-  text-align: center;
+  text-align: center !important;
 }
 
 .pb_box {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-  gap: 8px;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  gap: 8px !important;
 }
 
 .pb_field, .pb_field > input, .pb_field > textarea, .pb_field > select {
-  width: 100%;
-  box-sizing: border-box;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
 .pb_field > input,  select {
-  outline: none;
-  border: none;
-  padding: 8px 10px;
-  border-radius: 5px;
-  text-align: center;
+  outline: none !important ;
+  border: none !important ;
+  padding: 8px 10px !important;
+  border-radius: 5px !important;
+  text-align: center !important;
 }
 
 .pb_field > textarea {
-    outline: none;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+    outline: none !important;
+  border: none !important;
+  padding: 5px 10px !important;
+  border-radius: 5px !important;
 }
 
 .pb_field  select {
-  width: 100%;
+  width: 100% !important;
 }
 
 .pb_field_03 {
-  margin-top: 15px;
+  margin-top: 15px !important;
 }
 
 .pb_field > input[type="submit"] {
-  background-color: #243943;
-  color: #ffffff;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  background-color: #243943 !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 
 @media only screen and (max-width: 400px) {
 div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 > form {
-  width: 100%;
-  padding: 0;
+  width: 100% !important;
+  padding: 0 !important;
 }
 }
 
  * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
  }
 
  @media only screen and (max-width: 600px) {
 div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 > form {
-  width: 100%;
-  padding: 10px 30px;
+  width: 100% !important; 
+  padding: 10px 30px !important;
 }
 }
 
- * {
-  box-sizing: border-box;
- }
