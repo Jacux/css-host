@@ -255,6 +255,10 @@ input[type="checkbox"] {
     background-image: none;
   }
 
+  #cc .slider_search #cc_lay_an {
+    width: 100vw;
+}
+
   #header ul li {
     display: block;
     margin-top: 5px;
@@ -816,3 +820,29 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 .lp_ss {
   padding-inline: 15px !important;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+  #cc .slider_search #cc_lay_an {
+    width: 100vw;
+}
+}
+
+#header_logo, #header_telephone {
+  display:none
+}
+
+@media only screen and (max-width: 768px) {
+#header_logo {
+  display: block;
+}
+       #header>.cc_limit_width {
+            height: 45px !important;
+        }
+}
+
+        #header>.cc_limit_width {
+            height: 26px;
+        }
+
