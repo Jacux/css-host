@@ -805,3 +805,14 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
   text-align: center !important;
   color: #243943 !important;
 }
+
+@media only screen and (max-width: 400px) {
+.flex-container.product-slider {
+    margin-top: 40px;
+    
+}
+}
+ 
+.lp_ss {
+  padding-inline: 15px !important;
+}
