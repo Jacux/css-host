@@ -860,3 +860,10 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 }
 
 
+#cc_lay_page .page_content_header {
+        background-color: #e3f6ff !important; 
+}
+#cc_lay_page .page_content_header h4 {
+      text-align: center;
+      color: #243943 !important;
+}
