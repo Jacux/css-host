@@ -846,3 +846,17 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
             height: 26px;
         }
 
+[ng-controller="cruises"] {padding-top: 50px !important;}
+
+#cc #tpm {
+        background-color: #e3f6ff !important; 
+}
+
+
+
+
+#tpm a, #tpm i {
+      color: #243943 !important;
+}
+
+
