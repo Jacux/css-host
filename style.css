@@ -784,7 +784,7 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 .pb_field  select {
   width: 100% !important;
 }
-#cc .pb_field_02 {
+#cc .pb_field_02, #cc .pb_field_03 {
     width: 100% !important;
 }
 
@@ -805,4 +805,3 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
   text-align: center !important;
   color: #243943 !important;
 }
-  
