@@ -872,7 +872,17 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
     background-color: #e3f6ff !important;
     border-radius: 15px
 }
-#cc_lay_ship .page_box_form {
+#cc_lay_ship .page_box_form, #cc_lay_ship .page_content_1 {
 
     background-color: #e3f6ff
+}
+
+#cc_lay_ship .pb_field_take
+{
+          background-color: #243943 !important;
+    color: #e3f6ff !important; 
+}
+
+#cc_lay_ship .pb_field_take > label {
+        color: #e3f6ff !important; 
 }
