@@ -684,11 +684,11 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
   gap: 16px !important;
 }
 
-.pb_text {
+.cc-widget--contact .pb_text {
   text-align: center !important;
 }
 
-.pb_box {
+.cc-widget--contact .pb_box {
   display: flex !important;
   justify-content: center !important;
   flex-direction: column !important;
@@ -697,12 +697,12 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
   gap: 8px !important;
 }
 
-.pb_field, .pb_field > input, .pb_field > textarea, .pb_field > select {
+.cc-widget--contact .pb_field, .cc-widget--contact .pb_field > input, .cc-widget--contact .pb_field > textarea, .cc-widget--contact .pb_field > select {
   width: 100% !important;
   box-sizing: border-box !important;
 }
 
-.pb_field > input,  select {
+.cc-widget--contact .pb_field > input, .cc-widget--contact select {
   outline: none !important ;
   border: none !important ;
   padding: 8px 10px !important;
@@ -710,22 +710,22 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
   text-align: center !important;
 }
 
-.pb_field > textarea {
+.cc-widget--contact .pb_field > textarea {
     outline: none !important;
   border: none !important;
   padding: 5px 10px !important;
   border-radius: 5px !important;
 }
 
-.pb_field  select {
+.cc-widget--contact .pb_field  select {
   width: 100% !important;
 }
 
-.pb_field_03 {
+.cc-widget--contact .pb_field_03 {
   margin-top: 15px !important;
 }
 
-.pb_field > input[type="submit"] {
+.cc-widget--contact .pb_field > input[type="submit"] {
   background-color: #243943 !important;
   color: #ffffff !important;
   font-weight: 600 !important;
@@ -778,21 +778,21 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
       color: #243943 !important;
 }
 
-.pb_field {
+.cc-widget--contact .pb_field {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column
 }
 
-.pb_field  select {
+.cc-widget--contact .pb_field  select {
   width: 100% !important;
 }
 #cc .pb_field_02, #cc .pb_field_03 {
     width: 100% !important;
 }
 
-.pb_text {
+.cc-widget--contact .pb_text {
     width: 100% !important;
 }
 
@@ -868,7 +868,7 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
       color: #243943 !important;
 }
 
-#cc_lay_filter {
+/* #cc_lay_filter {
     background-color: #e3f6ff !important;
     border-radius: 15px
 }
@@ -876,3 +876,13 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 
     background-color: #e3f6ff
 }
+
+#cc_lay_ship .pb_field_take
+{
+          background-color: #243943 !important;
+    color: #e3f6ff !important; 
+}
+
+#cc_lay_ship .pb_field_take > label {
+        color: #e3f6ff !important; 
+} */
