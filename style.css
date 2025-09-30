@@ -756,24 +756,24 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 
 
 
-#cc input {
+.cc-widget--contact input {
   background-color: #ffffff !important;
   color: #243943 !important;
 }
-#cc input:focus {
+.cc-widget--contact input:focus {
   background-color: #ffffff !important;
     color: #243943 !important;
 }
 
 
 
-#cc select {
+.cc-widget--contact select {
     background-color: #ffffff !important;
     color: #243943 !important;
   width: 100% !important;
 }
 
-#cc textarea {
+.cc-widget--contact textarea {
       background-color: #ffffff !important;
       color: #243943 !important;
 }
