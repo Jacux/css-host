@@ -868,13 +868,13 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
       color: #243943 !important;
 }
 
-/* #cc_lay_filter {
+#cc_lay_filter {
     background-color: #e3f6ff !important;
     border-radius: 15px
 }
 #cc_lay_ship .page_box_form {
 
-    background-color: #e3f6ff
+    background-color: #e3f6ff !important
 }
 
 #cc_lay_ship .pb_field_take
@@ -885,4 +885,4 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 
 #cc_lay_ship .pb_field_take > label {
         color: #e3f6ff !important; 
-} */
+} 
