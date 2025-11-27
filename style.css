@@ -894,7 +894,7 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 }
 
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 990px) {
 #header-phonee {
   display: none !important;
 }
@@ -904,7 +904,7 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 }
 
 
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 990px) {
 #header-phonee {
   display: flex !important;
 }
