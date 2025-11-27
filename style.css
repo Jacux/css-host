@@ -886,3 +886,29 @@ div.cc_limit_width.pagemaker-widget.cc-widget--contact > div > .page_content_1 >
 #cc_lay_ship .pb_field_take > label {
         color: #e3f6ff !important; 
 } 
+
+
+#header-phonee {
+  position: absolute;
+ right: 1%;
+}
+
+
+@media only screen and (max-width: 1150px) {
+#header-phonee {
+  display: none !important;
+}
+#phone-icon {
+  display: flex !important;
+}
+}
+
+
+@media only screen and (min-width: 1150px) {
+#header-phonee {
+  display: flex !important;
+}
+#phone-icon {
+  display: none !important;
+}
+}
