@@ -422,9 +422,14 @@ input[type="checkbox"] {
 .footer-bottom {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
 
+}
+.footer-top{
+  align-items:center
+}
+.footer-bottom{
+  align-items: start;
+}
 .footer-socials {
   display: flex;
   gap: 24px;
@@ -482,6 +487,9 @@ input[type="checkbox"] {
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+  .footer-bottom{
+    align-items:center
   }
 
   .footer-socials {
